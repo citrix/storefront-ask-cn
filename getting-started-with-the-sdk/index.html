@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Getting started with the SDK - StoreFront SDK 文档</title>
+  
+
+  <link rel="shortcut icon" href="
+https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="../css/override.css" type="text/css" />
+  <link rel="stylesheet" href="../css/font-awesome.css" type="text/css" />
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Getting started with the SDK";
+    var mkdocs_page_input_path = "getting-started-with-the-sdk.md";
+    var mkdocs_page_url = "/getting-started-with-the-sdk/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/custom.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+	<div class="header-top">
+		<div class="header-top-left">
+			<a href="http://citrix.github.io" class="logo-position"><img height="60" src="https://thumbnail-ec2.sharefile.com/thumbnail.aspx?encparams=ypL2J0l-In6gqXJ7yeyKP8A1rqwKMH-C8-nfkJcHJNIN7Y0yZiJsYOcUe-uc0YeZzWLQSFSd1FnuMHPa30XSSINHuGOA8nvvnBT5WmjGlKvd5mxJ4IfT7iTVyHELwhWQiNCznPCiIFyhkA78uKX77PlU2iyhM4YdRM1NKabBe-4wXuiFJsbtAxyJ2UukO_E2ZSf1W3l75Dw8G0zflVkT-EFqyx1zSGId0qzLjm6nzJ8dA9zo-1AJzUisdzmGMzHOq_LMsOWyaalvmcWvCkl-q10GBSbfekfTIFW9LpZNYjkLNSnK8rcwNjWVr_jYayrGjIj2e5dDIMiDj3NRvW51AvHRjxYH9xRRRtY$" target="_blank" class="logo-citrix"><span style="color:#fff;font-size: 20px;position: relative;top:4px;left: 5px">SDK Reference</span></a>
+		</div>
+		<div class="header-top-right">
+			<ul>
+			<!--	<li class="list-inline home"><a href="..">HOME</a></li>
+				<li class="list-inline support"><a href="http://support.citrix.com">SUPPORT</a></li>-->
+				<form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+            <li class="list-inline support"><input name="q" id="txtName" type="text" placeholder="Search SDKs" 
+            class="searchdocs">
+<a class="fa fa-search errspan"></a></li>
+</form>
+				<!--<li class="list-inline"><a href="http://citrix.com/download">DOWNLOADS</a></li>-->
+			</ul>
+
+		</div>
+	</div>
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+	<i class="fa fa-search"></i>
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="..">StoreFront SDK</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../overview/">Overview</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../how-the-api-works/">How the API works</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../requests/">Requests</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../using-configuration-elements/">Using configuration elements</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../customization-sdk/">StoreFront Customization SDK</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <span class="expli"><i class="fa fa-plus-square-o" aria-hidden="true"></i></span><a class="current" style="width:250px;" href="./">Getting started with the SDK</a>
+        
+            <ul style="display:none">
+            
+                <li class="toctree-l3"><a href="#sdk">SDK 入门</a></li>
+                
+                    <li><a class="toctree-l4" href="#_1">要求</a></li>
+                
+                    <li><a class="toctree-l4" href="#_2">步骤概述</a></li>
+                
+                    <li><a class="toctree-l4" href="#storefront">如果升级 StoreFront</a></li>
+                
+                    <li><a class="toctree-l4" href="#_3">删除自定义</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../customization-interfaces/">Customization interfaces</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../known-issues/">Known issues</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" style="width:250px;" href="../samples/">Samples</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+         <!-- <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Getting started with the SDK</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div> -->
+          <div role="main">
+            <div class="section">
+             
+                <h1 id="sdk"><a class="toclink" href="#sdk">SDK 入门</a></h1>
+<p>本主题说明了如何使用 Store Customization SDK 应用自定义。本主题提供了最低要求列表并概述了必须执行的主要步骤。</p>
+<p>所有自定义都遵循相同的模式：特定接口中的方法通过 StoreFront 计算出的值和上下文参数调用。 自定义的代码改变原始值并返回一个新值。 这一新值随后将由 StoreFront 用于进一步处理。 实现类使用上下文参数计算返回的值。</p>
+<p>随 SDK 提供的是典型自定义示例（请参阅“示例文件夹”）和“模板文件”。 这些文件是可用作起点的简单文件，可以向其中添加您自己的逻辑。 只需使用您自己的代码填充模板文件即可实现自定义，如下文的步骤中所述。 有关模板文件的详细信息，请参阅示例解决方案。</p>
+<p>开始操作之前，请查阅“已知问题”部分。</p>
+<h2 id="_1"><a class="toclink" href="#_1">要求</a></h2>
+<p>使用 Store Customization SDK 需要具有适度的编程技能，最好是在 C# 4.0 级更高版本中编程。 最低系统要求</p>
+<ul>
+<li>操作系统要求：Windows 7</li>
+<li>Visual Studio 2012</li>
+<li>.NET Framework 4.5</li>
+</ul>
+<h2 id="_2"><a class="toclink" href="#_2">步骤概述</a></h2>
+<p>本部分内容概述了使用 Store Customization SDK 时执行的主要步骤。步骤如下：</p>
+<ol>
+<li>在 Visual Studio 中，确定要使用的接口，例如“资源自定义”。有关详细信息，请参阅第 8 页上的“自定义接口”。</li>
+<li>选择相关模板文件。有关模板文件的详细信息，请参阅示例解决方案。</li>
+<li>向模板文件中添加自定义逻辑。</li>
+<li>构建解决方案。</li>
+<li>部署自定义。有关详细信息，请参阅第 12 页上的“部署自定义”。</li>
+<li>重新启动服务。有关详细信息，请参阅第 13 页上的“重新启动服务”。</li>
+<li>测试并调试自定义。有关详细信息，请参阅第 13 页上的“测试并调试”。 下面的主题更加详细地介绍了这些步骤。</li>
+</ol>
+<h2 id="storefront"><a class="toclink" href="#storefront">如果升级 StoreFront</a></h2>
+<p>请注意，自定义在升级过程中不会保留下来。升级后，必须重新部署您的自定义程序集，并在推出到生产环境之前测试这些程序集。</p>
+<h2 id="_3"><a class="toclink" href="#_3">删除自定义</a></h2>
+<p>只要您备份了原始程序集（如“部署自定义”中所述），即可还原 StoreFront 的原始行为。</p>
+<p>要删除自定义，请执行以下操作：</p>
+<ul>
+<li>将在应用商店的 bin 文件夹中备份的程序集复制到其中一台 StoreFront 服务器。</li>
+<li>成功复制程序集后，请在上面复制了程序集的 StoreFront 服务器上执行传播操作。 这会将原始程序集推送到 StoreFront 群集的其他成员。</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">提示</p>
+</div>
+<p>也可以通过删除 dll 并执行传播操作来删除自定义；dll 将从服务器组中的所有计算机中删除。</p>
+              
+               
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<!--<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span class="prev"><a href="../customization-sdk/"><i class="fa fa-angle-left"></i> Previous</a></span>
+      
+      
+        <span class="next"><a href="../customization-interfaces/">Next <i class="fa fa-angle-right"></i></a></span>
+      
+    </span>
+	<div class="footer-right">
+		<ul class="social-links">
+			<li class="list-inline"><a href="https://twitter.com/citrix"><i class="fa fa-twitter"></i>@citrix</a></li>
+			<li class="list-inline"><a href="mailto:support@citrix.com"><i class="fa fa-envelope-o"></i>support@citrix.com</a></li>
+		</ul>
+		<ul class="inner-pages">
+			<li class="list-inline"><a href="http://citrix.com/about/legal">Privacy and Terms</li>
+		</ul>
+	</div>
+</div>-->
+
+</body>
+</html>

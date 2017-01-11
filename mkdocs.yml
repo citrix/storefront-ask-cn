@@ -8,12 +8,12 @@ markdown_extensions:
      anchorlink: true
 pages:
   - StoreFront SDK: index.md
-  - Overview: overview.md
-  - How the API works: how-the-api-works.md
-  - Requests: requests.md
-  - Using configuration elements: using-configuration-elements.md
+  - 概述: overview.md
+  - API 的工作原理: how-the-api-works.md
+  - 请求: requests.md
+  - 使用配置元素: using-configuration-elements.md
   - StoreFront Customization SDK: customization-sdk.md
-  - Getting started with the SDK: getting-started-with-the-sdk.md
-  - Customization interfaces: customization-interfaces.md
-  - Known issues: known-issues.md
-  - Samples: samples.md
+  - SDK 入门: getting-started-with-the-sdk.md
+  - 自定义接口: customization-interfaces.md
+  - 已知问题: known-issues.md
+  - 示例: samples.md

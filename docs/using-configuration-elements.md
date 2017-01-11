@@ -81,7 +81,7 @@ XPath：/configuration/citrix.deliveryservices/webReceiver/clientSettings/ plugi
 | platforms        | 以分号分隔的正则表达式列表。**Firefox;Chrome;Version/ ([6-9]\d\d).*Safari;MSIE \d\d;Trident; Android;iPad;iPhone;iPod** ; | 用于搜索 UserAgent 字符串以确定受支持的浏览器的正则表达式。                                                  |
 | launchURL        | 相对 URL                                                                                                          | Receiver for HTML5 启动页面的位置。                                                          |
 | singleTabLaunch  | true / **false**                                                                                                | 是否在与 Citrix Receiver for Web 主页相同的浏览器选项卡上启动应用程序。                                     |
-| chromeAppOrigins | **chrome-extension:// bgiigkppjadidglloadcadeih lnbpagp**                                                       | 用于标识 Google Chrome Web 应用商店中 Citrix Chrome 应用程序的官方发行版的源 URL 列表。每个 URL 使用管道符号 (|) 分隔。 |
+| chromeAppOrigins | **chrome-extension:// bgiigkppjadidglloadcadeih lnbpagp**                                                       | 用于标识 Google Chrome Web 应用商店中 Citrix Chrome 应用程序的官方发行版的源 URL 列表。每个 URL 使用管道符号 (&#124;) 分隔。 |
 
 ## 用户界面
 
